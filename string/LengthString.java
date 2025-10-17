@@ -1,0 +1,19 @@
+package programming.string;
+
+public class LengthString {
+	public static int findLength(String str) {
+	int count=0;
+	
+		for(int i=0;i<=str.length()-1;i++) {
+			count++;
+		}
+		return count;
+	}
+
+
+
+public static void main(String[] args) {
+	int length=findLength("Anih");
+	System.out.println(length);
+}
+}
