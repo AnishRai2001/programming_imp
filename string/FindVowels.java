@@ -2,7 +2,7 @@ package programming.string;
 
 public class FindVowels {
     public static void main(String[] args) {
-        String str = "Hello World";
+        String str = "Anish";
         findVowels(str);
     }
 
