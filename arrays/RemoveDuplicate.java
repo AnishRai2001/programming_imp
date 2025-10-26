@@ -22,6 +22,7 @@ public class RemoveDuplicate {
 				
 			}
 		}
+		System.out.println("Original List" + list);
 		System.out.println("Original (Unique) Items: " + original);
         System.out.println("Duplicate Items: " + duplicate);
 	}
